@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/requestsRecyclerView"
+        android:layout_width="385dp"
+        android:layout_height="661dp"
+        android:layout_weight="1"
+        android:paddingTop="100dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_my_requests"
+        android:layout_width="384dp"
+        android:layout_height="97dp"
+        android:text="Show only my requests" />
+
+    <Button
+        android:id="@+id/mapViewButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:text="Map"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:elevation="8dp"/>
+</LinearLayout>
